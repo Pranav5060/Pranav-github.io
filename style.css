@@ -1,0 +1,36 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(doughnuts.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+	color:white;
+}
+.btn-primary{
+	border-color:red;
+	background-color:red;
+	text-transform:uppercase;
+	
+}
+.btn-primary:hover{
+	background-color:red;
+	border-color:red;
+}
+.btn{
+	background-color:red;
+}
+hr{
+	border-color:red;
+	border-width: 3px;
+	max-width: 60px;
+}
+img{
+	 filter: blur 50px;
+  -webkit-filter: blur 50px;
+}
